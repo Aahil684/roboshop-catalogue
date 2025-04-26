@@ -1,0 +1,13 @@
+name: CI-Main branch
+on:
+  push:
+    branches:
+      - main
+
+
+jobs:
+  common:
+    uses: Aahil684/github-actions-reusable/.github/workflows/ci-main.yml
+    with:
+      component_name: catalogue
+      app_type: nodejs
