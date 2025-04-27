@@ -8,7 +8,7 @@ on:
 
 jobs:
   common:
-    uses: Aahil684/github-actions-reusable/.github/workflows/ci-main.yml
+    uses: Aahil684/github-actions-reusable/.github/workflows/ci-main.yml@main
     with:
       component_name: catalogue
       app_type: nodejs
